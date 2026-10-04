@@ -13,7 +13,7 @@ export const contentPt: SiteContent = {
     name: "Kayke Celli",
     title: "Game Developer",
     subtitle:
-      "Unity Developer na Dazain. Bacharel em Jogos Digitais pela PUC-SP.",
+      "Game Developer na Dazain. Bacharel em Jogos Digitais pela PUC-SP.",
     ctaContact: "Fale comigo",
     ctaCv: "Baixar CV",
   },
@@ -21,7 +21,7 @@ export const contentPt: SiteContent = {
     eyebrow: "Sobre mim",
     title: "Jogos para marcas e eventos",
     lead:
-      "Game developer com um ano de experiência profissional em serious games e advergames.",
+      "Game developer com mais de um ano de experiência profissional em serious games, advergames e VR.",
     body: [
       "Desenvolvo jogos e ativações interativas para eventos, do protótipo à entrega. Os projetos têm prazo definido e precisam se manter estáveis diante do público.",
       "Cuido da arquitetura, da implementação e da otimização. O jogo precisa rodar bem no equipamento do cliente, e o projeto precisa conseguir crescer com o mínimo de retrabalho.",
@@ -47,18 +47,25 @@ export const contentPt: SiteContent = {
     skillsTitle: "Habilidades",
     experience: [
       {
-        role: "Unity Developer",
+        role: "Game Developer",
         company: "Dazain, jogos e ativações interativas",
         period: "Jun 2025 a atual",
         description:
-          "Desenvolvo jogos e ativações interativas para eventos, da prototipagem à entrega. Implemento gameplay, interface, integrações e ferramentas em C# e Unity, adapto os projetos às plataformas necessárias e cuido de desempenho, testes e publicação.",
+          "Criei do zero um sistema modular de quiz em Unity, com conteúdo carregado por JSON e banco de dados local para uso offline, reaproveitado em dois anos de evento e nas versões de mais de 7 marcas. Desenvolvo sozinho jogos completos em Unity, com prazos de até 20 dias, para Android, Windows e totens touch, com integração de hardware como volantes, pedais e botões físicos. Fui o único programador de duas experiências em VR para Meta Quest 3 em Unreal Engine 5, usando Blueprints.",
+      },
+      {
+        role: "Lead Gameplay Programmer",
+        company: "The Adventurous Metal Craig, TCC da PUC-SP em C# e Unity",
+        period: "Fev 2025 a nov 2025",
+        description:
+          "Arquitetura do player com Hierarchical State Machine e Factory, deixando locomoção e combate em estados isolados. Dados em Scriptable Objects, comunicação entre sistemas por eventos e object pooling para manter o desempenho.",
       },
       {
         role: "Gameplay Programmer",
-        company: "Slimesivos, projeto acadêmico em C# e Unity",
+        company: "Slimesivos, projeto acadêmico mobile em C# e Unity",
         period: "Fev 2024 a jun 2024",
         description:
-          "Controller em Rigidbody2D com wall stick, wall slide, wall jump e double jump. Input, colisão, movimento, animação e VFX/SFX se comunicam por Unity Events.",
+          "Controller em Rigidbody2D com input touch (tap e swipe) pelo New Input System. Input, colisão, movimento, animação e VFX/SFX se comunicam por Unity Events.",
       },
     ],
     education: [
@@ -78,7 +85,8 @@ export const contentPt: SiteContent = {
     skills: [
       { name: "C#", level: 85 },
       { name: "Unity", level: 85 },
-      { name: "Unreal Engine", level: 60 },
+      { name: "Unreal Engine (Blueprints)", level: 60 },
+      { name: "Persistência local e dados (JSON)", level: 75 },
       { name: "Git", level: 75 },
       { name: "Trello / gestão de projetos", level: 70 },
       { name: "Inglês (B2)", level: 70 },

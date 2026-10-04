@@ -65,7 +65,7 @@ export const projects: Project[] = [
         { label: "Evento", value: "FISP 2026" },
         { label: "Período", value: "16 de setembro a 5 de outubro de 2026" },
         { label: "Plataforma", value: "Meta Quest 3, realidade virtual" },
-        { label: "Engine", value: "Unreal Engine 5.7, Blueprints e C++" },
+        { label: "Engine", value: "Unreal Engine 5.7, Blueprints" },
       ],
       responsibilities: [
         "Programei toda a experiência, trabalhando junto com a equipe de arte do estúdio nos modelos, cenários e materiais.",
@@ -110,7 +110,7 @@ export const projects: Project[] = [
         { label: "Event", value: "FISP 2026" },
         { label: "Timeline", value: "September 16 to October 5, 2026" },
         { label: "Platform", value: "Meta Quest 3, virtual reality" },
-        { label: "Engine", value: "Unreal Engine 5.7, Blueprints and C++" },
+        { label: "Engine", value: "Unreal Engine 5.7, Blueprints" },
       ],
       responsibilities: [
         "I programmed the entire experience, working with the studio's art team on models, environments, and materials.",
@@ -162,7 +162,7 @@ export const projects: Project[] = [
         { label: "Evento", value: "Feira internacional de petróleo e gás no Rio de Janeiro, setembro de 2026" },
         { label: "Período", value: "3 de agosto a 18 de setembro de 2026" },
         { label: "Plataforma", value: "Meta Quest 3, realidade virtual" },
-        { label: "Engine", value: "Unreal Engine 5.7, Blueprints e C++" },
+        { label: "Engine", value: "Unreal Engine 5.7, Blueprints" },
       ],
       responsibilities: [
         "Programei toda a experiência, trabalhando junto com a equipe de arte do estúdio nos cenários, efeitos, áudios e textos.",
@@ -201,7 +201,7 @@ export const projects: Project[] = [
         { label: "Event", value: "International oil and gas fair in Rio de Janeiro, September 2026" },
         { label: "Timeline", value: "August 3 to September 18, 2026" },
         { label: "Platform", value: "Meta Quest 3, virtual reality" },
-        { label: "Engine", value: "Unreal Engine 5.7, Blueprints and C++" },
+        { label: "Engine", value: "Unreal Engine 5.7, Blueprints" },
       ],
       responsibilities: [
         "I programmed the entire experience, working with the studio's art team on environments, effects, audio, and text.",
@@ -772,16 +772,16 @@ export const projects: Project[] = [
       period: "Set 2023 a Nov 2023",
       headline: "Platformer 3D com visual de N64 e PS1 em Unreal Engine 4.",
       summary:
-        "Platformer 3D com visual de N64 e PS1, feito em Unreal Engine 4. O player é um ACharacter em C++ com CharacterMovementComponent, câmera spring arm e input de ação e eixo. Mushroom Jumper, IA inimiga, partículas e assets 3D próprios foram construídos sobre essa base de movimento.",
+        "Platformer 3D com visual de N64 e PS1, feito em Unreal Engine 4 com Blueprints. O player é um Character Blueprint com CharacterMovementComponent, câmera spring arm e input de ação e eixo. Mushroom Jumper, IA inimiga, partículas e assets 3D próprios foram construídos sobre essa base de movimento.",
       facts: [
         { label: "Função", value: "Programador de Gameplay e Artista 3D" },
         { label: "Contexto", value: "Projeto acadêmico, PUC-SP" },
         { label: "Período", value: "Setembro a novembro de 2023" },
         { label: "Plataforma", value: "Windows" },
-        { label: "Engine", value: "Unreal Engine 4, C++" },
+        { label: "Engine", value: "Unreal Engine 4, Blueprints" },
       ],
       responsibilities: [
-        "ACharacter e CharacterMovementComponent cuidam do pulo, do air control, da orientação ao movimento e da câmera com spring arm.",
+        "O Character Blueprint e o CharacterMovementComponent cuidam do pulo, do air control, da orientação ao movimento e da câmera com spring arm.",
         "O Mushroom Jumper é uma interação no component de movimento e serve para a travessia.",
         "A IA inimiga trata combate e esquiva nos níveis da floresta corrompida.",
         "A modelagem e a animação 3D cobrem o inimigo de pedra e o NPC capivara, com partículas para pulos e interações.",
@@ -794,16 +794,16 @@ export const projects: Project[] = [
       period: "Sep 2023 to Nov 2023",
       headline: "3D platformer with an N64 and PS1 look in Unreal Engine 4.",
       summary:
-        "3D platformer in an N64 and PS1 visual style, built in Unreal Engine 4. The player is a C++ ACharacter with CharacterMovementComponent, a spring arm camera, and action and axis input. Mushroom Jumper, enemy AI, particles, and custom 3D assets are built on that movement base.",
+        "3D platformer in an N64 and PS1 visual style, built in Unreal Engine 4 with Blueprints. The player is a Character Blueprint with CharacterMovementComponent, a spring arm camera, and action and axis input. Mushroom Jumper, enemy AI, particles, and custom 3D assets are built on that movement base.",
       facts: [
         { label: "Role", value: "Gameplay Programmer and 3D Artist" },
         { label: "Context", value: "Academic project, PUC-SP" },
         { label: "Timeline", value: "September to November 2023" },
         { label: "Platform", value: "Windows" },
-        { label: "Engine", value: "Unreal Engine 4, C++" },
+        { label: "Engine", value: "Unreal Engine 4, Blueprints" },
       ],
       responsibilities: [
-        "ACharacter and CharacterMovementComponent handle jump, air control, orientation to movement, and a spring arm follow camera.",
+        "The Character Blueprint and CharacterMovementComponent handle jump, air control, orientation to movement, and a spring arm follow camera.",
         "The Mushroom Jumper is an interaction on the movement component and supports traversal.",
         "Enemy AI handles combat and avoidance in the corrupted forest levels.",
         "3D modeling and animation cover the stone enemy and the capybara NPC, with particles for jumps and interactions.",
