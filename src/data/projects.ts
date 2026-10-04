@@ -28,6 +28,8 @@ export type Project = {
   /** Year and month the project ended (YYYY-MM), used to sort newest first. */
   endDate: string;
   cover: string;
+  /** CSS object-position for covers whose focus is off center, e.g. portrait key art. */
+  coverPosition?: string;
   /** Gallery media (images, gifs, or videos) shown on the project page. */
   media: string[];
   links?: {
@@ -40,6 +42,106 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    id: "prova-de-fogo",
+    category: "professional",
+    endDate: "2026-10",
+    cover: "/projects/fisp/cover.jpg",
+    media: ["/projects/fisp/gameplay-01.mp4", "/projects/fisp/gameplay-02.mp4"],
+    links: {
+      event: "https://feirafisp.com.br/",
+    },
+    pt: {
+      title: "Prova de Fogo",
+      studio: "Dazain",
+      period: "Set 2026 a Out 2026",
+      headline: "Experiência em VR que coloca os EPIs da Kevlar e da Nomex à prova.",
+      summary:
+        "Experiência em realidade virtual criada para a Kevlar e a Nomex apresentarem seus produtos na FISP 2026. O visitante recebe um chamado de emergência, escolhe o equipamento que vai vestir e enfrenta situações de perigo, como um incêndio em uma plataforma e uma falha em uma subestação. As luvas e os macacões das marcas mostram, na prática, como protegem quem está em campo.",
+      facts: [
+        { label: "Função", value: "Único programador, com a equipe de arte do estúdio" },
+        { label: "Estúdio", value: "Dazain" },
+        { label: "Clientes", value: "Kevlar e Nomex" },
+        { label: "Evento", value: "FISP 2026" },
+        { label: "Período", value: "16 de setembro a 5 de outubro de 2026" },
+        { label: "Plataforma", value: "Meta Quest 3, realidade virtual" },
+        { label: "Engine", value: "Unreal Engine 5.7, Blueprints e C++" },
+      ],
+      responsibilities: [
+        "Programei toda a experiência, trabalhando junto com a equipe de arte do estúdio nos modelos, cenários e materiais.",
+        "Estruturei o fluxo da sessão: hub na garagem, alerta com a missão, escolha do equipamento, missão e retorno ao hub, com o estado mantido entre os levels.",
+        "Criei as interações em VR, como alavanca, válvula, disjuntor, conexão de cabos, extintor e vestir luvas e macacões.",
+        "Implementei as missões de incêndio na plataforma e de falha na subestação, com fogo, fumaça, vazamento de gás e arco elétrico.",
+        "Integrei a dublagem, a escolha de idioma entre português e inglês e os ajustes pedidos pelo cliente até a entrega.",
+      ],
+      sections: [
+        {
+          title: "Como funciona",
+          paragraphs: [
+            "A experiência começa em uma garagem, onde o visitante escolhe o idioma e recebe um alerta, como \"Fogo na plataforma\" ou \"Falha na subestação\", pedindo que vista o EPI certo para a situação. Na sala de equipamentos ele escolhe entre luvas e macacões e segue para a missão.",
+            "Em cada missão o jogador precisa agir em meio ao perigo: destravar uma válvula emperrada no meio das chamas, desligar disjuntores e reconectar cabos em uma subestação com arco elétrico. O equipamento das marcas é o que mantém o jogador protegido, e esse é o ponto central da demonstração.",
+          ],
+        },
+        {
+          title: "O evento",
+          paragraphs: [
+            "A FISP, Feira Internacional de Segurança e Proteção, é o maior evento de segurança do trabalho e combate a incêndios da América Latina. A 25ª edição foi realizada de 6 a 8 de outubro de 2026 no São Paulo Expo, com cerca de 800 marcas expositoras e expectativa de mais de 60 mil profissionais de 48 países.",
+          ],
+        },
+        {
+          title: "Desafios",
+          paragraphs: [
+            "O maior desafio foi conectar as várias cenas, do hub às missões e de volta, mantendo a sessão consistente em VR. O outro foi o visual: os efeitos de fogo, fumaça e arco elétrico precisavam ser convincentes para que a proteção do equipamento fizesse sentido para quem estava com o headset.",
+          ],
+        },
+      ],
+    },
+    en: {
+      title: "Trial by Fire",
+      studio: "Dazain",
+      period: "Sep 2026 to Oct 2026",
+      headline: "VR experience that puts Kevlar and Nomex protective gear to the test.",
+      summary:
+        "Virtual reality experience built for Kevlar and Nomex to showcase their products at FISP 2026. Visitors receive an emergency call, choose the gear they will wear, and face dangerous situations such as a fire on a platform and a failure in an electrical substation. The brands' gloves and coveralls show, in practice, how they protect people in the field.",
+      facts: [
+        { label: "Role", value: "Sole programmer, with the studio's art team" },
+        { label: "Studio", value: "Dazain" },
+        { label: "Clients", value: "Kevlar and Nomex" },
+        { label: "Event", value: "FISP 2026" },
+        { label: "Timeline", value: "September 16 to October 5, 2026" },
+        { label: "Platform", value: "Meta Quest 3, virtual reality" },
+        { label: "Engine", value: "Unreal Engine 5.7, Blueprints and C++" },
+      ],
+      responsibilities: [
+        "I programmed the entire experience, working with the studio's art team on models, environments, and materials.",
+        "I structured the session flow: a garage hub, a mission alert, gear selection, the mission, and the return to the hub, with state kept across levels.",
+        "I built the VR interactions, including a lever, valve, circuit breaker, cable connections, fire extinguisher, and putting on gloves and coveralls.",
+        "I implemented the platform fire and substation failure missions, with fire, smoke, a gas leak, and an electric arc.",
+        "I integrated the voice over, language selection between Portuguese and English, and the client's change requests through delivery.",
+      ],
+      sections: [
+        {
+          title: "How it plays",
+          paragraphs: [
+            "The experience starts in a garage, where the visitor picks a language and receives an alert, such as \"Fire on the platform\" or \"Substation failure\", asking them to put on the right protective gear for the situation. In the gear room they choose between gloves and coveralls and head out to the mission.",
+            "Each mission asks the player to act in the middle of danger: unjam a stuck valve surrounded by flames, switch off breakers, and reconnect cables in a substation with an electric arc. The brands' gear is what keeps the player protected, and that is the core of the demonstration.",
+          ],
+        },
+        {
+          title: "The event",
+          paragraphs: [
+            "FISP, the International Safety and Protection Fair, is the largest occupational safety and firefighting event in Latin America. The 25th edition took place from October 6 to 8, 2026 at São Paulo Expo, with around 800 exhibiting brands and more than 60,000 professionals from 48 countries expected.",
+          ],
+        },
+        {
+          title: "Challenges",
+          paragraphs: [
+            "The biggest challenge was connecting the many scenes, from the hub to the missions and back, while keeping the session consistent in VR. The other was the visuals: the fire, smoke, and electric arc effects had to be convincing so the protection offered by the gear made sense to whoever was wearing the headset.",
+          ],
+        },
+      ],
+    },
+  },
   {
     id: "oficina-interativa",
     category: "professional",
@@ -218,9 +320,11 @@ export const projects: Project[] = [
     id: "slimesivos",
     category: "academic",
     endDate: "2024-06",
-    cover: "/projects/slimesivos/menu.jpeg",
+    cover: "/projects/slimesivos/cover.png",
+    coverPosition: "0% 50%",
     media: [
       "/projects/slimesivos/gameplay.mp4",
+      "/projects/slimesivos/cover.png",
       "/projects/slimesivos/menu.jpeg",
       "/projects/slimesivos/gameplay-shot.jpeg",
       "/projects/slimesivos/level-select.jpeg",
@@ -279,9 +383,11 @@ export const projects: Project[] = [
     id: "leaf-hopper",
     category: "academic",
     endDate: "2023-11",
-    cover: "/projects/leaf-hopper/main-menu.png",
+    cover: "/projects/leaf-hopper/key-art.png",
+    coverPosition: "50% 18%",
     media: [
       "/projects/leaf-hopper/gameplay.gif",
+      "/projects/leaf-hopper/key-art.png",
       "/projects/leaf-hopper/main-menu.png",
       "/projects/leaf-hopper/level.png",
       "/projects/leaf-hopper/shot-2.png",

@@ -155,7 +155,12 @@ function PagerLink({ project, lang, label, alignEnd }: PagerLinkProps) {
       href={projectHref(project.id)}
       className={`${styles.pagerLink} ${alignEnd ? styles.pagerEnd : ""}`}
     >
-      <img src={asset(project.cover)} alt="" loading="lazy" />
+      <img
+        src={asset(project.cover)}
+        alt=""
+        loading="lazy"
+        style={{ objectPosition: project.coverPosition }}
+      />
       <span className={styles.pagerText}>
         <span className={styles.pagerLabel}>{label}</span>
         <span className={styles.pagerTitle}>{project[lang].title}</span>

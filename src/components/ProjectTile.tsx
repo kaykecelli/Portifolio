@@ -15,7 +15,12 @@ export function ProjectTile({ project, lang }: Props) {
   return (
     <a href={projectHref(project.id)} className={styles.tile}>
       <div className={styles.thumb}>
-        <img src={asset(project.cover)} alt="" loading="lazy" />
+        <img
+          src={asset(project.cover)}
+          alt=""
+          loading="lazy"
+          style={{ objectPosition: project.coverPosition }}
+        />
       </div>
       <div className={styles.body}>
         <h3 className={styles.title}>{copy.title}</h3>
