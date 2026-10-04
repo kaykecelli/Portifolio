@@ -13,52 +13,52 @@ export const contentPt: SiteContent = {
     name: "Kayke Celli",
     title: "Game Developer",
     subtitle:
-      "Desenvolvedor de jogos. Unity Developer na Dazain. Bacharel em Jogos Digitais pela PUC-SP.",
+      "Unity Developer na Dazain. Bacharel em Jogos Digitais pela PUC-SP.",
     ctaContact: "Fale comigo",
     ctaCv: "Baixar CV",
   },
   about: {
     eyebrow: "Sobre mim",
-    title: "Da ideia ao jogo rodando no evento",
+    title: "Jogos para marcas e eventos",
     lead:
-      "Game developer com 1 ano de experiência profissional, transformando briefings de marcas em jogos e experiências interativas que engajam pessoas de verdade.",
+      "Game developer com um ano de experiência profissional em serious games e advergames.",
     body: [
-      "Hoje atuo com serious games e advergames, criando soluções gamificadas e experiências imersivas para eventos — projetos com prazo fixo, público real e zero margem para falhar na hora da ativação.",
-      "Assumo o projeto de ponta a ponta: prototipagem rápida para validar a ideia, arquitetura pensada para o projeto crescer sem retrabalho e otimização para rodar liso no hardware do cliente.",
-      "Já entreguei em mobile, desktop e VR, com Unity e Unreal Engine — então me adapto à plataforma e à engine que o projeto pedir, sem curva de aprendizado travando o time.",
+      "Desenvolvo jogos e ativações interativas para eventos, do protótipo à entrega. Os projetos têm prazo definido e precisam se manter estáveis diante do público.",
+      "Cuido da arquitetura, da implementação e da otimização. O jogo precisa rodar bem no equipamento do cliente, e o projeto precisa conseguir crescer com o mínimo de retrabalho.",
+      "Trabalho com Unity e Unreal Engine em mobile, desktop e VR, e me adapto à plataforma que cada projeto exige.",
     ],
     focus: [
       "Advergames",
       "Serious Games",
       "Unity",
       "Unreal Engine",
-      "Mobile · Desktop · VR",
+      "Mobile, Desktop, VR",
       "C#",
       "Inglês B2",
     ],
   },
   resume: {
     eyebrow: "Currículo",
-    title: "Experiência, formação e skills",
+    title: "Experiência, formação e habilidades",
     lead:
-      "Desenvolvimento de jogos e ativações interativas, com base acadêmica em Jogos Digitais na PUC-SP.",
+      "Desenvolvimento de jogos e ativações interativas, com formação em Jogos Digitais pela PUC-SP.",
     experienceTitle: "Experiência",
     educationTitle: "Formação e cursos",
-    skillsTitle: "Skills",
+    skillsTitle: "Habilidades",
     experience: [
       {
         role: "Unity Developer",
-        company: "Dazain — Desenvolvimento de Jogos e Ativações Interativas",
-        period: "Jun 2025 — Atual",
+        company: "Dazain, jogos e ativações interativas",
+        period: "Jun 2025 a atual",
         description:
-          "Responsável pelo desenvolvimento completo de jogos e ativações interativas para eventos, da prototipagem à entrega. Crio sistemas de gameplay, UI, integrações e ferramentas em C# e Unity; adapto projetos para diferentes plataformas com foco em desempenho; e gerencio o ciclo completo (arquitetura, implementação, testes, otimização e entrega).",
+          "Desenvolvo jogos e ativações interativas para eventos, da prototipagem à entrega. Implemento gameplay, interface, integrações e ferramentas em C# e Unity, adapto os projetos às plataformas necessárias e cuido de desempenho, testes e publicação.",
       },
       {
         role: "Gameplay Programmer",
-        company: "Slimesivos — Projeto Acadêmico (C#, Unity)",
-        period: "Fev 2024 — Jun 2024",
+        company: "Slimesivos, projeto acadêmico em C# e Unity",
+        period: "Fev 2024 a jun 2024",
         description:
-          "Controller Rigidbody2D com wall-stick/slide, wall jump e double jump. Arquitetura desacoplada via Unity Events: New Input System, colisão, movimento, animação e VFX/SFX sincronizados sem acoplamento direto.",
+          "Controller em Rigidbody2D com wall stick, wall slide, wall jump e double jump. Input, colisão, movimento, animação e VFX/SFX se comunicam por Unity Events.",
       },
     ],
     education: [
@@ -89,7 +89,7 @@ export const contentPt: SiteContent = {
   portfolio: {
     eyebrow: "Portfólio",
     title: "Projetos profissionais e acadêmicos",
-    lead: "Projetos acadêmicos e profissionais. Os cards profissionais ainda são placeholders.",
+    lead: "Jogos da graduação e do trabalho profissional.",
     filterAll: "Todos",
     filterAcademic: "Acadêmicos",
     filterProfessional: "Profissionais",
@@ -105,7 +105,7 @@ export const contentPt: SiteContent = {
     eyebrow: "Contato",
     title: "Vamos conversar",
     lead:
-      "São Paulo — SP. Aberto a oportunidades em desenvolvimento de jogos.",
+      "São Paulo, SP. Aberto a oportunidades em desenvolvimento de jogos.",
     emailLabel: "Email",
     phoneLabel: "Telefone / WhatsApp",
     socialLabel: "Redes",

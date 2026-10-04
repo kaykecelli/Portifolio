@@ -68,7 +68,7 @@ export function ProjectGallery({
           type="button"
           className={styles.frame}
           onClick={() => setLightbox(true)}
-          aria-label={`${alt} — ${index + 1}/${count}`}
+          aria-label={`${alt}, ${index + 1}/${count}`}
         >
           {currentIsVideo ? (
             <video
