@@ -160,7 +160,8 @@ export const projects: Project[] = [
       summary:
         "Sistema de quiz modular vendido à Oficina Brasil e usado nas ativações das marcas parceiras no evento de 2025 e novamente no de 2026. As perguntas são carregadas por JSON, o mesmo app reúne outras ativações, como jogo da memória, caça-palavras e roleta de brindes, e os dados ficam salvos em um banco local simples. Cada marca recebe uma versão com sua própria identidade visual, construída sobre a mesma base.",
       facts: [
-        { label: "Função", value: "Criador do sistema e programador principal, com uma artista de UI" },
+        { label: "Função", value: "Criador do sistema e programador principal" },
+        { label: "Equipe", value: "Gestor, artista de UI e time de conceito" },
         { label: "Estúdio", value: "Dazain" },
         { label: "Cliente", value: "Oficina Brasil" },
         { label: "Marcas", value: "Renault, Nissan, Mercado Livre, SKF, NTN, Valeo e AC Delco, entre outras" },
@@ -169,7 +170,7 @@ export const projects: Project[] = [
         { label: "Engine", value: "Unity 6" },
       ],
       responsibilities: [
-        "Criei o sistema do zero e mantive a base usada em todas as versões das marcas.",
+        "Criei o sistema do zero e mantive a base usada em todas as versões das marcas, trabalhando com um gestor, uma artista de UI e o time que desenvolveu os conceitos das ativações para os clientes.",
         "O quiz é modular: as perguntas, inclusive com imagens, são carregadas de arquivos JSON, embaralhadas a cada partida e seguem regras de vitória configuráveis. Trocar o conteúdo de uma marca não exige mudar o código.",
         "Integrei outras ativações no mesmo app, como jogo da memória, caça-palavras e roleta de brindes com chance configurada por produto.",
         "Implementei um banco de dados local simples em JSON, que guarda o estoque de brindes, as chances e os resultados entre sessões, além do cadastro de participantes exportado em CSV com verificação de telefone repetido.",
@@ -199,7 +200,8 @@ export const projects: Project[] = [
       summary:
         "Modular quiz system sold to Oficina Brasil and used in its partner brands' activations at the 2025 event and again in 2026. Questions are loaded from JSON, the same app bundles other activations such as a memory game, word search, and a prize wheel, and data is stored in a simple local database. Each brand gets a version with its own visual identity, built on the same base.",
       facts: [
-        { label: "Role", value: "System creator and lead programmer, with a UI artist" },
+        { label: "Role", value: "System creator and lead programmer" },
+        { label: "Team", value: "Manager, UI artist, and concept team" },
         { label: "Studio", value: "Dazain" },
         { label: "Client", value: "Oficina Brasil" },
         { label: "Brands", value: "Renault, Nissan, Mercado Livre, SKF, NTN, Valeo, and AC Delco, among others" },
@@ -208,7 +210,7 @@ export const projects: Project[] = [
         { label: "Engine", value: "Unity 6" },
       ],
       responsibilities: [
-        "I built the system from scratch and maintained the base used by every brand version.",
+        "I built the system from scratch and maintained the base used by every brand version, working with a manager, a UI artist, and the team that developed the activation concepts for the clients.",
         "The quiz is modular: questions, including ones with images, are loaded from JSON files, shuffled every round, and follow configurable win rules. Changing a brand's content requires no code changes.",
         "I integrated other activations into the same app, including a memory game, word search, and a prize wheel with per product odds.",
         "I implemented a simple local JSON database that keeps prize stock, odds, and results across sessions, plus a participant sign up exported to CSV with a duplicate phone check.",
@@ -252,7 +254,8 @@ export const projects: Project[] = [
       summary:
         "Simulação gamificada de uma oficina mecânica, criada para o Oficina Brasil Conecta 2026 com versões personalizadas para a Urba e a ContiTech. Em partidas de dois minutos, o visitante conduz o mecânico pela oficina, pega a peça que cada carro pede e tenta consertar o maior número de veículos antes de o tempo acabar.",
       facts: [
-        { label: "Função", value: "Único desenvolvedor e programador, com uma artista de UI" },
+        { label: "Função", value: "Único desenvolvedor e programador" },
+        { label: "Equipe", value: "Gestor, artista de UI e time de conceito" },
         { label: "Estúdio", value: "Dazain" },
         { label: "Clientes", value: "Urba e ContiTech" },
         { label: "Evento", value: "Oficina Brasil Conecta 2026" },
@@ -261,7 +264,7 @@ export const projects: Project[] = [
         { label: "Engine", value: "Unity" },
       ],
       responsibilities: [
-        "Fiz todo o desenvolvimento do jogo, do primeiro protótipo à build final, trabalhando com uma artista de UI na interface.",
+        "Fiz todo o desenvolvimento do jogo, do primeiro protótipo à build final, trabalhando com um gestor, uma artista de UI e o time que desenvolveu o conceito do projeto para os clientes.",
         "Implementei o loop da partida: cronômetro de dois minutos, ondas de carros que aumentam a cada rodada e pontuação por carro consertado.",
         "O mecânico se move por NavMesh com clique ou toque, carrega uma peça por vez e entrega ao carro que pediu aquela peça.",
         "Preparei duas versões do jogo, uma para a Urba e outra para a ContiTech, cada uma com a identidade visual da marca.",
@@ -297,7 +300,8 @@ export const projects: Project[] = [
       summary:
         "A gamified auto repair shop built for Oficina Brasil Conecta 2026, with branded versions for Urba and ContiTech. In two minute rounds, visitors guide the mechanic around the shop, grab the part each car needs, and try to fix as many cars as possible before time runs out.",
       facts: [
-        { label: "Role", value: "Sole developer and programmer, with a UI artist" },
+        { label: "Role", value: "Sole developer and programmer" },
+        { label: "Team", value: "Manager, UI artist, and concept team" },
         { label: "Studio", value: "Dazain" },
         { label: "Clients", value: "Urba and ContiTech" },
         { label: "Event", value: "Oficina Brasil Conecta 2026" },
@@ -306,7 +310,7 @@ export const projects: Project[] = [
         { label: "Engine", value: "Unity" },
       ],
       responsibilities: [
-        "I handled all of the game's development, from the first prototype to the final build, working with a UI artist on the interface.",
+        "I handled all of the game's development, from the first prototype to the final build, working with a manager, a UI artist, and the team that developed the project concept for the clients.",
         "I implemented the round loop: a two minute timer, waves of cars that grow every round, and one point per repaired car.",
         "The mechanic moves on a NavMesh by click or touch, carries one part at a time, and delivers it to the car that asked for it.",
         "I prepared two versions of the game, one for Urba and one for ContiTech, each with the brand's visual identity.",
