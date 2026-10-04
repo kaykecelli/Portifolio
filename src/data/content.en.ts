@@ -11,9 +11,9 @@ export const contentEn: SiteContent = {
   hero: {
     greeting: "Hi, I'm",
     name: "Kayke Celli",
-    title: "Gameplay Programmer",
+    title: "Game Developer",
     subtitle:
-      "Game developer and gameplay programmer. Unity Developer at Dazain. Bachelor in Digital Games from PUC-SP.",
+      "Game developer. Unity Developer at Dazain. Bachelor in Digital Games from PUC-SP.",
     ctaContact: "Get in touch",
     ctaCv: "Download CV",
   },
@@ -21,10 +21,10 @@ export const contentEn: SiteContent = {
     eyebrow: "About me",
     title: "Gameplay, prototyping & delivery",
     lead:
-      "Early-career game developer focused on gameplay systems and mechanics prototyping.",
+      "Game developer with 1 year of professional experience in the industry.",
     body: [
-      "I implement gameplay and interactive experiences with C# and Unity, with hands-on experience in other engines as well.",
-      "I've worked in creative teams contributing solutions for immersive games. I stand out for continuous learning, organization, and a passion for innovation in the games industry.",
+      "I currently work on serious games and advergames, building gamified solutions and immersive experiences for events.",
+      "I've shipped across multiple platforms — mobile, desktop, and VR — using engines such as Unity and Unreal Engine.",
     ],
     focus: [
       "C#",
@@ -103,7 +103,7 @@ export const contentEn: SiteContent = {
     eyebrow: "Contact",
     title: "Let's talk",
     lead:
-      "Based in São Paulo, SP. Open to opportunities in game development and gameplay programming.",
+      "Based in São Paulo, SP. Open to opportunities in game development.",
     emailLabel: "Email",
     phoneLabel: "Phone / WhatsApp",
     socialLabel: "Social",
