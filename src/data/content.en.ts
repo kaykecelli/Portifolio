@@ -19,19 +19,21 @@ export const contentEn: SiteContent = {
   },
   about: {
     eyebrow: "About me",
-    title: "Gameplay, prototyping & delivery",
+    title: "From idea to a game running live at the event",
     lead:
-      "Game developer with 1 year of professional experience in the industry.",
+      "Game developer with 1 year of professional experience, turning brand briefs into games and interactive experiences that genuinely engage people.",
     body: [
-      "I currently work on serious games and advergames, building gamified solutions and immersive experiences for events.",
-      "I've shipped across multiple platforms — mobile, desktop, and VR — using engines such as Unity and Unreal Engine.",
+      "I currently work on serious games and advergames, building gamified solutions and immersive experiences for events — projects with fixed deadlines, real audiences, and zero room for failure on activation day.",
+      "I own projects end to end: rapid prototyping to validate the idea, an architecture that lets the project grow without rework, and optimization so it runs smoothly on the client's hardware.",
+      "I've shipped on mobile, desktop, and VR with both Unity and Unreal Engine — so I adapt to whatever platform and engine the project needs, without a learning curve holding the team back.",
     ],
     focus: [
-      "C#",
+      "Advergames",
+      "Serious Games",
       "Unity",
       "Unreal Engine",
-      "Git",
-      "Gameplay",
+      "Mobile · Desktop · VR",
+      "C#",
       "English B2",
     ],
   },

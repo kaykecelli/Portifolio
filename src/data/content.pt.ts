@@ -19,19 +19,21 @@ export const contentPt: SiteContent = {
   },
   about: {
     eyebrow: "Sobre mim",
-    title: "Gameplay, prototipagem e entrega",
+    title: "Da ideia ao jogo rodando no evento",
     lead:
-      "Game developer com 1 ano de experiência atuando profissionalmente na área.",
+      "Game developer com 1 ano de experiência profissional, transformando briefings de marcas em jogos e experiências interativas que engajam pessoas de verdade.",
     body: [
-      "Atualmente trabalho com serious games e jogos para publicidade, criando soluções gamificadas e experiências imersivas para eventos.",
-      "Já desenvolvi para diversas plataformas — mobile, desktop e VR — utilizando engines como Unity e Unreal Engine.",
+      "Hoje atuo com serious games e advergames, criando soluções gamificadas e experiências imersivas para eventos — projetos com prazo fixo, público real e zero margem para falhar na hora da ativação.",
+      "Assumo o projeto de ponta a ponta: prototipagem rápida para validar a ideia, arquitetura pensada para o projeto crescer sem retrabalho e otimização para rodar liso no hardware do cliente.",
+      "Já entreguei em mobile, desktop e VR, com Unity e Unreal Engine — então me adapto à plataforma e à engine que o projeto pedir, sem curva de aprendizado travando o time.",
     ],
     focus: [
-      "C#",
+      "Advergames",
+      "Serious Games",
       "Unity",
       "Unreal Engine",
-      "Git",
-      "Gameplay",
+      "Mobile · Desktop · VR",
+      "C#",
       "Inglês B2",
     ],
   },
