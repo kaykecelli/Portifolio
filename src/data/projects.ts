@@ -143,6 +143,91 @@ export const projects: Project[] = [
     },
   },
   {
+    id: "oil-green",
+    category: "professional",
+    endDate: "2026-09",
+    cover: "/projects/oil-green/cover.jpg",
+    media: ["/projects/oil-green/gameplay-01.mp4", "/projects/oil-green/gameplay-02.mp4"],
+    pt: {
+      title: "Oil Green",
+      studio: "Dazain",
+      period: "Ago 2026 a Set 2026",
+      headline: "Treinamento em VR para resolver uma pane em uma plataforma de petróleo.",
+      summary:
+        "Experiência em realidade virtual criada para a Green Oil demonstrar, em uma feira internacional, como funciona a solução de uma pane em uma plataforma de petróleo. O visitante chega de helicóptero, desembarca na plataforma e segue, passo a passo, o procedimento para controlar a falha antes que o tempo acabe.",
+      facts: [
+        { label: "Função", value: "Único programador, com a equipe de arte do estúdio" },
+        { label: "Estúdio", value: "Dazain" },
+        { label: "Cliente", value: "Green Oil" },
+        { label: "Evento", value: "Feira internacional de petróleo e gás no Rio de Janeiro, setembro de 2026" },
+        { label: "Período", value: "3 de agosto a 18 de setembro de 2026" },
+        { label: "Plataforma", value: "Meta Quest 3, realidade virtual" },
+        { label: "Engine", value: "Unreal Engine 5.7, Blueprints e C++" },
+      ],
+      responsibilities: [
+        "Programei toda a experiência, trabalhando junto com a equipe de arte do estúdio nos cenários, efeitos, áudios e textos.",
+        "Criei a abertura em helicóptero: embarque, voo de 360 graus ao redor da plataforma e pouso conduzido pelo piloto.",
+        "Implementei o procedimento da pane em etapas guiadas por um tablet, com alavanca, manivela, botões, painel de controle e monitores de parede.",
+        "Desenvolvi o cronômetro, as telas de derrota e de resultados, a escolha de idioma e os tutoriais de interação.",
+        "Integrei o oceano, a fumaça e os demais efeitos que ambientam a plataforma.",
+      ],
+      sections: [
+        {
+          title: "Como funciona",
+          paragraphs: [
+            "A sessão começa com a escolha do idioma e um tutorial rápido. Em seguida o visitante embarca no helicóptero, sobrevoa a plataforma e pousa nela. Lá dentro, um tablet apresenta cada etapa do procedimento, e o jogador precisa acionar alavancas, girar manivelas, apertar botões e acompanhar os monitores para resolver a pane.",
+            "Tudo acontece contra o relógio: se o tempo acabar, a falha sai do controle. Ao final, a tela de resultados mostra o desempenho do jogador.",
+          ],
+        },
+        {
+          title: "Desafios",
+          paragraphs: [
+            "Este foi o meu primeiro projeto em realidade virtual e a primeira vez usando a Unreal Engine 5 para VR. Precisei aprender, durante o próprio projeto, como pensar interações físicas com as mãos, conforto do jogador e desempenho no Meta Quest 3, mantendo o prazo da feira.",
+          ],
+        },
+      ],
+    },
+    en: {
+      title: "Oil Green",
+      studio: "Dazain",
+      period: "Aug 2026 to Sep 2026",
+      headline: "VR training for handling a failure on an oil platform.",
+      summary:
+        "Virtual reality experience built for Green Oil to demonstrate, at an international fair, how a failure on an oil platform is resolved. Visitors arrive by helicopter, land on the platform, and follow the procedure step by step to bring the failure under control before time runs out.",
+      facts: [
+        { label: "Role", value: "Sole programmer, with the studio's art team" },
+        { label: "Studio", value: "Dazain" },
+        { label: "Client", value: "Green Oil" },
+        { label: "Event", value: "International oil and gas fair in Rio de Janeiro, September 2026" },
+        { label: "Timeline", value: "August 3 to September 18, 2026" },
+        { label: "Platform", value: "Meta Quest 3, virtual reality" },
+        { label: "Engine", value: "Unreal Engine 5.7, Blueprints and C++" },
+      ],
+      responsibilities: [
+        "I programmed the entire experience, working with the studio's art team on environments, effects, audio, and text.",
+        "I built the helicopter opening: boarding, a 360 degree flight around the platform, and a landing led by the pilot.",
+        "I implemented the failure procedure as steps guided by a tablet, with a lever, a crank, buttons, a control panel, and wall monitors.",
+        "I developed the timer, the lose and results screens, language selection, and the interaction tutorials.",
+        "I integrated the ocean, smoke, and other effects that bring the platform to life.",
+      ],
+      sections: [
+        {
+          title: "How it plays",
+          paragraphs: [
+            "The session starts with language selection and a quick tutorial. The visitor then boards the helicopter, flies around the platform, and lands on it. Inside, a tablet presents each step of the procedure, and the player has to pull levers, turn cranks, press buttons, and watch the monitors to resolve the failure.",
+            "Everything happens against the clock: if time runs out, the failure gets out of control. At the end, a results screen shows how the player did.",
+          ],
+        },
+        {
+          title: "Challenges",
+          paragraphs: [
+            "This was my first virtual reality project and my first time using Unreal Engine 5 for VR. I had to learn, during the project itself, how to design hand based physical interactions, player comfort, and performance on Meta Quest 3, while keeping to the fair's deadline.",
+          ],
+        },
+      ],
+    },
+  },
+  {
     id: "sistema-de-quiz",
     category: "professional",
     endDate: "2026-07",
