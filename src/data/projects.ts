@@ -143,6 +143,95 @@ export const projects: Project[] = [
     },
   },
   {
+    id: "sistema-de-quiz",
+    category: "professional",
+    endDate: "2026-07",
+    cover: "/projects/quiz/cover.jpg",
+    media: [
+      "/projects/quiz/gameplay-01.mp4",
+      "/projects/quiz/gameplay-02.mp4",
+      "/projects/quiz/gameplay-03.mp4",
+    ],
+    pt: {
+      title: "Sistema de Quiz",
+      studio: "Dazain",
+      period: "Jun 2025 a Jul 2026",
+      headline: "Plataforma modular de quiz e ativações para as marcas da Oficina Brasil.",
+      summary:
+        "Sistema de quiz modular vendido à Oficina Brasil e usado nas ativações das marcas parceiras em seus eventos. As perguntas são carregadas por JSON, o mesmo app reúne outras ativações, como jogo da memória, caça-palavras e roleta de brindes, e os dados ficam salvos em um banco local simples. Cada marca recebe uma versão com sua própria identidade visual, construída sobre a mesma base.",
+      facts: [
+        { label: "Função", value: "Criador do sistema e programador principal" },
+        { label: "Estúdio", value: "Dazain" },
+        { label: "Cliente", value: "Oficina Brasil" },
+        { label: "Marcas", value: "Renault, Nissan, Mercado Livre, SKF, NTN, Valeo e AC Delco, entre outras" },
+        { label: "Período", value: "Junho de 2025 a julho de 2026" },
+        { label: "Plataforma", value: "Android e Windows, telas touch" },
+        { label: "Engine", value: "Unity 6" },
+      ],
+      responsibilities: [
+        "Criei o sistema do zero e mantive a base usada em todas as versões das marcas.",
+        "O quiz é modular: as perguntas, inclusive com imagens, são carregadas de arquivos JSON, embaralhadas a cada partida e seguem regras de vitória configuráveis. Trocar o conteúdo de uma marca não exige mudar o código.",
+        "Integrei outras ativações no mesmo app, como jogo da memória, caça-palavras e roleta de brindes com chance configurada por produto.",
+        "Implementei um banco de dados local simples em JSON, que guarda o estoque de brindes, as chances e os resultados entre sessões, além do cadastro de participantes exportado em CSV com verificação de telefone repetido.",
+        "Montei a interface para totens e tablets, com teclado virtual, animações em DOTween, contagem regressiva e reinício automático para o próximo participante, gerando builds para Android e Windows.",
+      ],
+      sections: [
+        {
+          title: "Como funciona",
+          paragraphs: [
+            "O participante responde perguntas sobre os produtos da marca dentro de um tempo limite. Quem acerta o suficiente desbloqueia a roleta de brindes, e o sorteio respeita o estoque e as chances definidas para cada produto. Dependendo da versão, a ativação também pode ser um jogo da memória ou um caça-palavras com a identidade da marca.",
+            "Ao fim da partida o jogo volta sozinho ao início, pronto para a próxima pessoa da fila, enquanto os dados da sessão ficam registrados localmente para a equipe do evento.",
+          ],
+        },
+        {
+          title: "Uma base para muitas marcas",
+          paragraphs: [
+            "O projeto foi vendido à Oficina Brasil, e eu desenvolvi os jogos de todas as marcas que usaram o sistema. Cada marca tem sua versão, com logo, cores, perguntas e brindes próprios, todas construídas sobre a mesma base. Isso permitiu entregar novas ativações em pouco tempo, mudando o conteúdo e o visual sem reescrever a lógica.",
+          ],
+        },
+      ],
+    },
+    en: {
+      title: "Quiz System",
+      studio: "Dazain",
+      period: "Jun 2025 to Jul 2026",
+      headline: "Modular quiz and activation platform for Oficina Brasil's partner brands.",
+      summary:
+        "Modular quiz system sold to Oficina Brasil and used in its partner brands' activations at events. Questions are loaded from JSON, the same app bundles other activations such as a memory game, word search, and a prize wheel, and data is stored in a simple local database. Each brand gets a version with its own visual identity, built on the same base.",
+      facts: [
+        { label: "Role", value: "System creator and lead programmer" },
+        { label: "Studio", value: "Dazain" },
+        { label: "Client", value: "Oficina Brasil" },
+        { label: "Brands", value: "Renault, Nissan, Mercado Livre, SKF, NTN, Valeo, and AC Delco, among others" },
+        { label: "Timeline", value: "June 2025 to July 2026" },
+        { label: "Platform", value: "Android and Windows, touchscreens" },
+        { label: "Engine", value: "Unity 6" },
+      ],
+      responsibilities: [
+        "I built the system from scratch and maintained the base used by every brand version.",
+        "The quiz is modular: questions, including ones with images, are loaded from JSON files, shuffled every round, and follow configurable win rules. Changing a brand's content requires no code changes.",
+        "I integrated other activations into the same app, including a memory game, word search, and a prize wheel with per product odds.",
+        "I implemented a simple local JSON database that keeps prize stock, odds, and results across sessions, plus a participant sign up exported to CSV with a duplicate phone check.",
+        "I built the UI for kiosks and tablets, with an on screen keyboard, DOTween animations, a countdown, and an automatic reset for the next participant, shipping builds for Android and Windows.",
+      ],
+      sections: [
+        {
+          title: "How it plays",
+          paragraphs: [
+            "Participants answer questions about the brand's products against the clock. Those who get enough right unlock the prize wheel, and the draw respects the stock and odds set for each product. Depending on the version, the activation can also be a memory game or a word search in the brand's identity.",
+            "When the round ends, the game resets on its own for the next person in line, while the session data is stored locally for the event staff.",
+          ],
+        },
+        {
+          title: "One base, many brands",
+          paragraphs: [
+            "The project was sold to Oficina Brasil, and I developed the games for every brand that used the system. Each brand has its own version, with its logo, colors, questions, and prizes, all built on the same base. That made it possible to deliver new activations quickly, changing content and visuals without rewriting the logic.",
+          ],
+        },
+      ],
+    },
+  },
+  {
     id: "oficina-interativa",
     category: "professional",
     endDate: "2026-07",
