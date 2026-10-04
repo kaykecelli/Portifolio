@@ -430,19 +430,24 @@ export const projects: Project[] = [
     endDate: "2026-07",
     cover: "/projects/drag-race/cover.jpg",
     media: ["/projects/drag-race/gameplay-01.mp4", "/projects/drag-race/gameplay-02.mp4"],
+    links: {
+      event:
+        "https://oficinabrasil.com.br/oficina-brasil/noticia/oficina-brasil-conecta-2026-consolida-evento-como-ponto-de-encontro-da-comunidade-reparacao-automotiva",
+    },
     pt: {
       title: "Drag Race",
       studio: "Dazain",
       period: "Mar 2026 a Jul 2026",
       headline: "Arrancada para dois jogadores com volantes e pedais Logitech.",
       summary:
-        "Simulador de arrancada em tela dividida criado para a Oficina Brasil, com a identidade da Karter. Dois visitantes sentam lado a lado, cada um com volante, pedais e câmbio, esperam a largada no semáforo e disputam quem cruza a linha de chegada no menor tempo.",
+        "Simulador de arrancada em tela dividida criado para o Oficina Brasil Conecta 2026, com a identidade da Karter. Dois visitantes sentam lado a lado, cada um com volante, pedais e câmbio, esperam a largada no semáforo e disputam quem cruza a linha de chegada no menor tempo.",
       facts: [
         { label: "Função", value: "Programador principal" },
         { label: "Equipe", value: "Gestor, artista de UI, time de conceito e mais um desenvolvedor do estúdio" },
         { label: "Estúdio", value: "Dazain" },
         { label: "Cliente", value: "Oficina Brasil" },
         { label: "Marca", value: "Karter" },
+        { label: "Evento", value: "Oficina Brasil Conecta 2026" },
         { label: "Período", value: "Março a julho de 2026" },
         { label: "Plataforma", value: "Windows, com dois volantes e pedais Logitech" },
         { label: "Engine", value: "Unity 6, com FMOD e Logitech G SDK" },
@@ -463,6 +468,12 @@ export const projects: Project[] = [
           ],
         },
         {
+          title: "O evento",
+          paragraphs: [
+            "O jogo foi uma das ativações do Oficina Brasil Conecta 2026, realizado de 24 a 26 de julho no Transamerica Expo Center, em São Paulo, com 8.431 visitantes.",
+          ],
+        },
+        {
           title: "Desafios",
           paragraphs: [
             "O desafio foi fazer o carro parecer de verdade com volante e pedais reais. Em uma arrancada qualquer toque no volante pode jogar o carro para o lado, então o assistente de direção corrige pequenos desvios e impede que o carro rode, mas devolve o controle assim que o jogador vira o volante.",
@@ -476,13 +487,14 @@ export const projects: Project[] = [
       period: "Mar 2026 to Jul 2026",
       headline: "Two player drag race with Logitech wheels and pedals.",
       summary:
-        "Split screen drag racing simulator built for Oficina Brasil with Karter branding. Two visitors sit side by side, each with a wheel, pedals, and a gearbox, wait for the start lights, and race to cross the finish line in the shortest time.",
+        "Split screen drag racing simulator built for Oficina Brasil Conecta 2026 with Karter branding. Two visitors sit side by side, each with a wheel, pedals, and a gearbox, wait for the start lights, and race to cross the finish line in the shortest time.",
       facts: [
         { label: "Role", value: "Lead programmer" },
         { label: "Team", value: "Manager, UI artist, concept team, and another studio developer" },
         { label: "Studio", value: "Dazain" },
         { label: "Client", value: "Oficina Brasil" },
         { label: "Brand", value: "Karter" },
+        { label: "Event", value: "Oficina Brasil Conecta 2026" },
         { label: "Timeline", value: "March to July 2026" },
         { label: "Platform", value: "Windows, with two Logitech wheels and pedals" },
         { label: "Engine", value: "Unity 6, with FMOD and Logitech G SDK" },
@@ -503,6 +515,12 @@ export const projects: Project[] = [
           ],
         },
         {
+          title: "The event",
+          paragraphs: [
+            "The game was one of the activations at Oficina Brasil Conecta 2026, held from July 24 to 26 at the Transamerica Expo Center in São Paulo, with 8,431 visitors.",
+          ],
+        },
+        {
           title: "Challenges",
           paragraphs: [
             "The challenge was making the car feel right with a real wheel and pedals. In a drag race any touch of the wheel can throw the car sideways, so the steering assist corrects small drifts and prevents spins, but hands control back as soon as the player turns the wheel.",
@@ -517,26 +535,30 @@ export const projects: Project[] = [
     endDate: "2026-06",
     cover: "/projects/test-your-might/cover.jpg",
     media: ["/projects/test-your-might/gameplay-01.mp4"],
+    links: {
+      event: "https://naturaltech.com.br/",
+    },
     pt: {
       title: "Test Your Might",
       studio: "Dazain",
       period: "Mai 2026 a Jun 2026",
       headline: "Desafio de força da Big Boom: aperte o mais rápido que puder.",
       summary:
-        "Jogo de ativação criado para a Big Boom, apresentado como Desafio BOOM PLAY. O visitante escolhe a dificuldade e aperta o botão o mais rápido que conseguir para o personagem levantar a barra antes de o tempo acabar. Quem vence segue para a degustação e retira um brinde.",
+        "Jogo de ativação criado para o estande da Big Boom na Bio Brazil Fair e Naturaltech 2026, apresentado como Desafio BOOM PLAY. O visitante escolhe a dificuldade e aperta o botão o mais rápido que conseguir para o personagem levantar a barra antes de o tempo acabar. Quem vence segue para a degustação e retira um brinde.",
       facts: [
         { label: "Função", value: "Único desenvolvedor e programador" },
         { label: "Estúdio", value: "Dazain" },
         { label: "Cliente", value: "Big Boom" },
+        { label: "Evento", value: "Bio Brazil Fair e Naturaltech 2026" },
         { label: "Período", value: "Maio a junho de 2026" },
-        { label: "Plataforma", value: "Windows, tela vertical" },
+        { label: "Plataforma", value: "Windows, tela vertical com botão físico" },
         { label: "Engine", value: "Unity 6" },
       ],
       responsibilities: [
         "Desenvolvi o jogo inteiro, da mecânica principal à build final entregue ao cliente.",
         "Criei a mecânica de força: cada toque enche a barra, que esvazia sozinha com o tempo, e a animação do personagem acompanha o progresso quadro a quadro.",
         "Implementei a seleção de dificuldade, o cronômetro e as telas de vitória e derrota, com o brinde para quem vence.",
-        "Montei o fluxo de telas animado em DOTween, com contagem regressiva, tutorial, transições e navegação pela barra de espaço.",
+        "Montei o fluxo de telas animado em DOTween, com contagem regressiva, tutorial, transições e navegação feita toda pelo botão físico.",
         "Adicionei o feedback de cada toque: partículas, sons de clique, vozes de esforço do personagem e trilha sonora.",
       ],
       sections: [
@@ -544,6 +566,12 @@ export const projects: Project[] = [
           title: "Como funciona",
           paragraphs: [
             "Depois de escolher a dificuldade, o visitante tem poucos segundos para encher a barra de força apertando o botão sem parar. Se ele diminui o ritmo, a barra desce e o personagem baixa o peso. Ao fim do tempo, quem estiver acima da meta vence, e o personagem comemora.",
+          ],
+        },
+        {
+          title: "O evento",
+          paragraphs: [
+            "A Bio Brazil Fair e a Naturaltech, os maiores eventos de produtos orgânicos e saudáveis da América Latina, completaram 20 edições em 2026. As feiras aconteceram de 10 a 13 de junho no Distrito Anhembi, em São Paulo, e o desafio ficou no estande da Big Boom, levando os vencedores para a degustação dos produtos.",
           ],
         },
       ],
@@ -554,20 +582,21 @@ export const projects: Project[] = [
       period: "May 2026 to Jun 2026",
       headline: "Big Boom strength challenge: press as fast as you can.",
       summary:
-        "Brand activation game built for Big Boom, presented as the BOOM PLAY Challenge. Visitors pick a difficulty and press the button as fast as they can so the character lifts the barbell before time runs out. Winners head to the tasting area and collect a prize.",
+        "Brand activation game built for the Big Boom booth at Bio Brazil Fair and Naturaltech 2026, presented as the BOOM PLAY Challenge. Visitors pick a difficulty and press the button as fast as they can so the character lifts the barbell before time runs out. Winners head to the tasting area and collect a prize.",
       facts: [
         { label: "Role", value: "Sole developer and programmer" },
         { label: "Studio", value: "Dazain" },
         { label: "Client", value: "Big Boom" },
+        { label: "Event", value: "Bio Brazil Fair and Naturaltech 2026" },
         { label: "Timeline", value: "May to June 2026" },
-        { label: "Platform", value: "Windows, portrait screen" },
+        { label: "Platform", value: "Windows, portrait screen with a physical button" },
         { label: "Engine", value: "Unity 6" },
       ],
       responsibilities: [
         "I developed the whole game, from the core mechanic to the final build delivered to the client.",
         "I created the strength mechanic: each press fills the bar, which drains on its own over time, and the character animation follows the progress frame by frame.",
         "I implemented difficulty selection, the timer, and the win and lose screens, with a prize for winners.",
-        "I built the animated screen flow in DOTween, with a countdown, tutorial, transitions, and spacebar navigation.",
+        "I built the animated screen flow in DOTween, with a countdown, tutorial, transitions, and navigation done entirely with the physical button.",
         "I added feedback to every press: particles, click sounds, character effort voices, and a soundtrack.",
       ],
       sections: [
@@ -575,6 +604,12 @@ export const projects: Project[] = [
           title: "How it plays",
           paragraphs: [
             "After choosing a difficulty, the visitor has a few seconds to fill the strength bar by pressing the button nonstop. If they slow down, the bar drops and the character lowers the weight. When time runs out, anyone above the target wins, and the character celebrates.",
+          ],
+        },
+        {
+          title: "The event",
+          paragraphs: [
+            "Bio Brazil Fair and Naturaltech, the largest organic and healthy products events in Latin America, reached their 20th editions in 2026. The fairs took place from June 10 to 13 at Distrito Anhembi in São Paulo, and the challenge ran at the Big Boom booth, sending winners to the product tasting.",
           ],
         },
       ],
