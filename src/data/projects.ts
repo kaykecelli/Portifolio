@@ -425,6 +425,162 @@ export const projects: Project[] = [
     },
   },
   {
+    id: "drag-race",
+    category: "professional",
+    endDate: "2026-07",
+    cover: "/projects/drag-race/cover.jpg",
+    media: ["/projects/drag-race/gameplay-01.mp4", "/projects/drag-race/gameplay-02.mp4"],
+    pt: {
+      title: "Drag Race",
+      studio: "Dazain",
+      period: "Mar 2026 a Jul 2026",
+      headline: "Arrancada para dois jogadores com volantes e pedais Logitech.",
+      summary:
+        "Simulador de arrancada em tela dividida criado para a Oficina Brasil, com a identidade da Karter. Dois visitantes sentam lado a lado, cada um com volante, pedais e câmbio, esperam a largada no semáforo e disputam quem cruza a linha de chegada no menor tempo.",
+      facts: [
+        { label: "Função", value: "Programador principal" },
+        { label: "Equipe", value: "Gestor, artista de UI, time de conceito e mais um desenvolvedor do estúdio" },
+        { label: "Estúdio", value: "Dazain" },
+        { label: "Cliente", value: "Oficina Brasil" },
+        { label: "Marca", value: "Karter" },
+        { label: "Período", value: "Março a julho de 2026" },
+        { label: "Plataforma", value: "Windows, com dois volantes e pedais Logitech" },
+        { label: "Engine", value: "Unity 6, com FMOD e Logitech G SDK" },
+      ],
+      responsibilities: [
+        "Montei a pista e o cenário, com iluminação baked, light probes, pós-processamento e os materiais dos carros.",
+        "Implementei a física dos carros com WheelColliders e o assistente de direção, que mantém o carro na reta sem tirar o controle do jogador.",
+        "Criei o cronômetro de cada jogador, a linha de chegada, a tela de resultado e a interface de menu e tutorial.",
+        "Integrei o FMOD ao projeto, substituindo o sistema de áudio anterior pelo som de motor que acompanha a rotação e as trocas de marcha.",
+        "Trabalhei com outro desenvolvedor do estúdio na integração dos volantes, pedais, câmbio e semáforo de largada, e apliquei os ajustes visuais pedidos pela marca.",
+      ],
+      sections: [
+        {
+          title: "Como funciona",
+          paragraphs: [
+            "Cada jogador controla um carro em sua metade da tela. O semáforo acende as luzes de largada, e a partir daí é acelerar, trocar de marcha na hora certa, guiado pelo indicador de troca, e manter o carro alinhado até a linha de chegada.",
+            "Quando os dois cruzam a linha, os carros desaceleram sozinhos e a tela de resultado compara os tempos para mostrar o vencedor.",
+          ],
+        },
+        {
+          title: "Desafios",
+          paragraphs: [
+            "O desafio foi fazer o carro parecer de verdade com volante e pedais reais. Em uma arrancada qualquer toque no volante pode jogar o carro para o lado, então o assistente de direção corrige pequenos desvios e impede que o carro rode, mas devolve o controle assim que o jogador vira o volante.",
+          ],
+        },
+      ],
+    },
+    en: {
+      title: "Drag Race",
+      studio: "Dazain",
+      period: "Mar 2026 to Jul 2026",
+      headline: "Two player drag race with Logitech wheels and pedals.",
+      summary:
+        "Split screen drag racing simulator built for Oficina Brasil with Karter branding. Two visitors sit side by side, each with a wheel, pedals, and a gearbox, wait for the start lights, and race to cross the finish line in the shortest time.",
+      facts: [
+        { label: "Role", value: "Lead programmer" },
+        { label: "Team", value: "Manager, UI artist, concept team, and another studio developer" },
+        { label: "Studio", value: "Dazain" },
+        { label: "Client", value: "Oficina Brasil" },
+        { label: "Brand", value: "Karter" },
+        { label: "Timeline", value: "March to July 2026" },
+        { label: "Platform", value: "Windows, with two Logitech wheels and pedals" },
+        { label: "Engine", value: "Unity 6, with FMOD and Logitech G SDK" },
+      ],
+      responsibilities: [
+        "I built the track and environment, with baked lighting, light probes, post processing, and the car materials.",
+        "I implemented the car physics with WheelColliders and the steering assist, which keeps the car on the straight without taking control away from the player.",
+        "I created each player's timer, the finish line, the results screen, and the menu and tutorial UI.",
+        "I integrated FMOD into the project, replacing the previous audio system with an engine sound that follows RPM and gear shifts.",
+        "I worked with another studio developer on the wheel, pedal, gearbox, and start light integration, and applied the visual changes requested by the brand.",
+      ],
+      sections: [
+        {
+          title: "How it plays",
+          paragraphs: [
+            "Each player drives a car on their half of the screen. The start lights count down, and from there it is about throttle, shifting at the right moment with the help of the shift indicator, and keeping the car straight until the finish line.",
+            "Once both cross the line, the cars coast to a stop and the results screen compares the times to show the winner.",
+          ],
+        },
+        {
+          title: "Challenges",
+          paragraphs: [
+            "The challenge was making the car feel right with a real wheel and pedals. In a drag race any touch of the wheel can throw the car sideways, so the steering assist corrects small drifts and prevents spins, but hands control back as soon as the player turns the wheel.",
+          ],
+        },
+      ],
+    },
+  },
+  {
+    id: "test-your-might",
+    category: "professional",
+    endDate: "2026-06",
+    cover: "/projects/test-your-might/cover.jpg",
+    media: ["/projects/test-your-might/gameplay-01.mp4"],
+    pt: {
+      title: "Test Your Might",
+      studio: "Dazain",
+      period: "Mai 2026 a Jun 2026",
+      headline: "Desafio de força da Big Boom: aperte o mais rápido que puder.",
+      summary:
+        "Jogo de ativação criado para a Big Boom, apresentado como Desafio BOOM PLAY. O visitante escolhe a dificuldade e aperta o botão o mais rápido que conseguir para o personagem levantar a barra antes de o tempo acabar. Quem vence segue para a degustação e retira um brinde.",
+      facts: [
+        { label: "Função", value: "Único desenvolvedor e programador" },
+        { label: "Estúdio", value: "Dazain" },
+        { label: "Cliente", value: "Big Boom" },
+        { label: "Período", value: "Maio a junho de 2026" },
+        { label: "Plataforma", value: "Windows, tela vertical" },
+        { label: "Engine", value: "Unity 6" },
+      ],
+      responsibilities: [
+        "Desenvolvi o jogo inteiro, da mecânica principal à build final entregue ao cliente.",
+        "Criei a mecânica de força: cada toque enche a barra, que esvazia sozinha com o tempo, e a animação do personagem acompanha o progresso quadro a quadro.",
+        "Implementei a seleção de dificuldade, o cronômetro e as telas de vitória e derrota, com o brinde para quem vence.",
+        "Montei o fluxo de telas animado em DOTween, com contagem regressiva, tutorial, transições e navegação pela barra de espaço.",
+        "Adicionei o feedback de cada toque: partículas, sons de clique, vozes de esforço do personagem e trilha sonora.",
+      ],
+      sections: [
+        {
+          title: "Como funciona",
+          paragraphs: [
+            "Depois de escolher a dificuldade, o visitante tem poucos segundos para encher a barra de força apertando o botão sem parar. Se ele diminui o ritmo, a barra desce e o personagem baixa o peso. Ao fim do tempo, quem estiver acima da meta vence, e o personagem comemora.",
+          ],
+        },
+      ],
+    },
+    en: {
+      title: "Test Your Might",
+      studio: "Dazain",
+      period: "May 2026 to Jun 2026",
+      headline: "Big Boom strength challenge: press as fast as you can.",
+      summary:
+        "Brand activation game built for Big Boom, presented as the BOOM PLAY Challenge. Visitors pick a difficulty and press the button as fast as they can so the character lifts the barbell before time runs out. Winners head to the tasting area and collect a prize.",
+      facts: [
+        { label: "Role", value: "Sole developer and programmer" },
+        { label: "Studio", value: "Dazain" },
+        { label: "Client", value: "Big Boom" },
+        { label: "Timeline", value: "May to June 2026" },
+        { label: "Platform", value: "Windows, portrait screen" },
+        { label: "Engine", value: "Unity 6" },
+      ],
+      responsibilities: [
+        "I developed the whole game, from the core mechanic to the final build delivered to the client.",
+        "I created the strength mechanic: each press fills the bar, which drains on its own over time, and the character animation follows the progress frame by frame.",
+        "I implemented difficulty selection, the timer, and the win and lose screens, with a prize for winners.",
+        "I built the animated screen flow in DOTween, with a countdown, tutorial, transitions, and spacebar navigation.",
+        "I added feedback to every press: particles, click sounds, character effort voices, and a soundtrack.",
+      ],
+      sections: [
+        {
+          title: "How it plays",
+          paragraphs: [
+            "After choosing a difficulty, the visitor has a few seconds to fill the strength bar by pressing the button nonstop. If they slow down, the bar drops and the character lowers the weight. When time runs out, anyone above the target wins, and the character celebrates.",
+          ],
+        },
+      ],
+    },
+  },
+  {
     id: "adventurous-metal-craig",
     category: "academic",
     endDate: "2025-11",
