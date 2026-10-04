@@ -1,0 +1,81 @@
+.contact {
+  background: transparent;
+}
+
+.grid {
+  display: grid;
+  gap: 2.25rem;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.value {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: var(--font-display);
+  word-break: break-word;
+  letter-spacing: -0.02em;
+  transition: color 0.22s var(--ease);
+}
+
+.value:hover {
+  color: var(--accent);
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.35rem;
+}
+
+.socials a {
+  font-family: var(--font-display);
+  font-weight: 600;
+  min-height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  color: var(--text);
+  transition: color 0.22s var(--ease);
+}
+
+.socials a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.35rem;
+  height: 1.5px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.28s var(--ease);
+}
+
+.socials a:hover {
+  color: var(--accent);
+}
+
+.socials a:hover::after {
+  transform: scaleX(1);
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+}

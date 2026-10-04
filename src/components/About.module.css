@@ -1,0 +1,42 @@
+.about {
+  background: transparent;
+}
+
+.body {
+  display: grid;
+  gap: 1.1rem;
+  max-width: 42rem;
+  color: var(--text-muted);
+  margin-bottom: 2.15rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.focus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+  font-family: var(--font-display);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--accent);
+  transition:
+    border-color 0.22s var(--ease),
+    background-color 0.22s var(--ease);
+}
+
+.chip:hover {
+  border-color: var(--border-strong);
+  background: rgba(255, 255, 255, 0.65);
+}
