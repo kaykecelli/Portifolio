@@ -43,7 +43,7 @@ export const contentEn: SiteContent = {
     lead:
       "Game and interactive activation development, backed by a Digital Games degree from PUC-SP.",
     experienceTitle: "Experience",
-    educationTitle: "Education & courses",
+    educationTitle: "Education and courses",
     skillsTitle: "Skills",
     experience: [
       {
@@ -93,10 +93,13 @@ export const contentEn: SiteContent = {
     filterAll: "All",
     filterAcademic: "Academic",
     filterProfessional: "Professional",
-    roleLabel: "Role",
-    timelineLabel: "Timeline",
-    contributionsLabel: "Key contributions",
+    responsibilitiesLabel: "What I did",
     linksLabel: "Links",
+    eventLinkLabel: "About the event",
+    backLabel: "Back to portfolio",
+    previousProjectLabel: "Previous project",
+    nextProjectLabel: "Next project",
+    notFound: "Project not found.",
     galleryPrev: "Previous image",
     galleryNext: "Next image",
     galleryClose: "Close",

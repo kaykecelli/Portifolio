@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
-import { projects, type ProjectCategory } from "../data/projects";
+import { sortedProjects, type ProjectCategory } from "../data/projects";
 import { useLanguage } from "../i18n/LanguageContext";
-import { ProjectCard } from "./ProjectCard";
+import { ProjectTile } from "./ProjectTile";
 import styles from "./Portfolio.module.css";
 
 type Filter = "all" | ProjectCategory;
@@ -12,8 +12,8 @@ export function Portfolio() {
   const [filter, setFilter] = useState<Filter>("all");
 
   const filtered = useMemo(() => {
-    if (filter === "all") return projects;
-    return projects.filter((p) => p.category === filter);
+    if (filter === "all") return sortedProjects;
+    return sortedProjects.filter((p) => p.category === filter);
   }, [filter]);
 
   const filters: Array<{ id: Filter; label: string }> = [
@@ -44,15 +44,9 @@ export function Portfolio() {
           ))}
         </div>
 
-        <div className={styles.list}>
-          {filtered.map((project, index) => (
-            <ProjectCard
-              key={project.id}
-              project={project}
-              lang={lang}
-              labels={portfolio}
-              reverse={index % 2 === 1}
-            />
+        <div className={styles.grid}>
+          {filtered.map((project) => (
+            <ProjectTile key={project.id} project={project} lang={lang} />
           ))}
         </div>
       </div>

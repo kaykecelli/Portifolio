@@ -54,10 +54,13 @@ export type SiteContent = {
     filterAll: string;
     filterAcademic: string;
     filterProfessional: string;
-    roleLabel: string;
-    timelineLabel: string;
-    contributionsLabel: string;
+    responsibilitiesLabel: string;
     linksLabel: string;
+    eventLinkLabel: string;
+    backLabel: string;
+    previousProjectLabel: string;
+    nextProjectLabel: string;
+    notFound: string;
     galleryPrev: string;
     galleryNext: string;
     galleryClose: string;

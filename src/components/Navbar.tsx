@@ -21,6 +21,10 @@ export function Navbar() {
   useEffect(() => {
     const onScroll = () => {
       setScrolled(window.scrollY > 12);
+      if (!document.getElementById("home")) {
+        setActive("portfolio");
+        return;
+      }
       let current = "home";
       for (const id of sections) {
         const el = document.getElementById(id);
@@ -29,9 +33,14 @@ export function Navbar() {
       }
       setActive(current);
     };
+    const onHashChange = () => requestAnimationFrame(onScroll);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    window.addEventListener("hashchange", onHashChange);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("hashchange", onHashChange);
+    };
   }, []);
 
   useEffect(() => {
