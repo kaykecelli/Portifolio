@@ -116,7 +116,7 @@ export const contentPt: SiteContent = {
     eyebrow: "Contato",
     title: "Vamos conversar",
     lead:
-      "São Paulo, SP. Aberto a oportunidades em desenvolvimento de jogos.",
+      "São José dos Campos, SP. Aberto a oportunidades em desenvolvimento de jogos.",
     emailLabel: "Email",
     phoneLabel: "Telefone / WhatsApp",
     socialLabel: "Redes",

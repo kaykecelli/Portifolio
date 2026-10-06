@@ -116,7 +116,7 @@ export const contentEn: SiteContent = {
     eyebrow: "Contact",
     title: "Let's talk",
     lead:
-      "Based in São Paulo, SP. Open to opportunities in game development.",
+      "Based in São José dos Campos, SP. Open to opportunities in game development.",
     emailLabel: "Email",
     phoneLabel: "Phone / WhatsApp",
     socialLabel: "Social",
